@@ -32,16 +32,18 @@ const HelloWorld = function() {
 
       <Link to='/about'>Read about and Rate this app!</Link>
 
-      <p>This is a starter <a href="http://glitch.com">Glitch</a> app for React! 
-        It uses only a few dependencies to get you started on working with 
+      <p>This is a starter <a href="http://glitch.com">Glitch</a> app for React!
+        It uses only a few dependencies to get you started on working with
         state handling via Redux:</p>
+
+      <p>ADDED: Hello</p>
 
       <UnorderedList items={dependenciesArray} />
 
       <p>Look in <code>app/components/</code> for {componentsMade.length} example components:</p>
 
       <UnorderedList items={componentsMade} />
-      
+
       <VoteContainer label="Upvote or downvote this app!"/>
     </div>
   );
